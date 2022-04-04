@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atv7</title>
+</head>
+<body>
+    <h2> Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou. </h2>
+    <script>
+        var n1 = parseFloat(prompt("DIGITE O 1° VALOR(inteiro ou não)"))
+        var n2 = parseFloat(prompt("DIGITE O 2° VALOR(inteiro ou não)"))
+        var n3 = parseFloat(prompt("DIGITE O 3° VALOR(inteiro ou não)"))
+        var n4 = parseFloat(prompt("DIGITE O 4° VALOR(inteiro ou não)"))
+        var n5 = parseFloat(prompt("DIGITE O 5° VALOR(inteiro ou não)"))
+        var n6 = parseFloat(prompt("DIGITE O 6° VALOR(inteiro ou não)"))
+
+        if (n1>72) n1 = 0
+          if (n2>72) n2 = 0         
+          if (n3>72) n3 = 0
+          if (n4>72) n4 = 0
+          if (n5>72) n5 = 0
+          if (n6>72) n6 = 0
+
+          var r1 = (n1 + n2 + n3 + n4 + n5 + n6)
+          document.write("apenas os numeros inferioes a 72, o resultado foi: " + r1)
+
+
+    </script>
+
+</body>
+</html>

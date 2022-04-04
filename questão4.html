@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atv4</title>
+</head>
+<body>
+    <h2>Faça um programa que leia dois valores informados pelo usuário e exiba uma das três mensagens a seguir: ‘Números iguais’, caso os números sejam iguais ‘Primeiro é maior’, caso o primeiro seja maior que o segundo; ‘Segundo maior’, caso o segundo seja maior que o primeiro.
+    </h2>
+    <script>
+var numero1 = parseFloat(prompt("DIGITE O PRIMEIRO VALOR(inteiro ou não)"))
+var numero2 = parseFloat(prompt("DIGITE O SEGUNDO VALOR(inteiro ou não)"))
+
+if(numero1 > numero2){
+    document.write("O NUMERO '" + numero1 +"' É MAIOR QUE O '" + numero2 + "'")
+}else if(numero1 < numero2 ){
+    document.write("O NUMERO '" + numero2 + "' MAIOR QUE O '" + numero1 + "'")
+}else {
+    document.write("OS VALORES SÃO IGUAIS")
+}
+    </script>
+</body>
+</html>
